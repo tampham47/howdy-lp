@@ -1,4 +1,16 @@
+@import "base/env";
 @import "base/normalize";
+@import "base/bootstrap-grid";
 @import "base/html5";
-@import "base/main";
 @import "base/typography";
+@import "base/main";
+
+// mobile first approach
+@import "sections/navbar";
+@import "sections/herobanner";
+@import "sections/purpose";
+@import "sections/howitwork";
+@import "sections/messenger";
+@import "sections/download";
+@import "sections/team";
+@import "sections/footer";

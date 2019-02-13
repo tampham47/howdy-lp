@@ -1,0 +1,20 @@
+.download {
+
+  img {
+    margin-bottom: 1rem;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    margin: $spacing 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  img.download__icon {
+    max-width: 200px;
+  }
+}

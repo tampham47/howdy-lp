@@ -1,0 +1,22 @@
+.team {
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem 0 4rem;
+  }
+}
+
+.team-item {
+  .name {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 100%;
+    border: 3px solid $color;
+  }
+}

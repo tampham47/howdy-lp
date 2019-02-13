@@ -1,0 +1,49 @@
+.messenger {
+  padding: $section-p 0;
+  background-image: url('/images/messenger.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+    background-color: rgba(231, 54, 114, 0.2);
+  }
+
+  &__title {
+    text-align: center;
+    margin: $spacing 0;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .content {
+    text-align: center;
+  }
+}
+
+.btn-messenger {
+  padding: 12px 36px;
+  background-color: #1787fb;
+  color: white;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    color: white;
+  }
+
+  img {
+    width: 30px;
+    margin-right: 0.5rem;
+  }
+}

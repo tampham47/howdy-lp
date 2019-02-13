@@ -1,4 +1,18 @@
 section {
-  padding-top: 72px;
-  padding-bottom: 72px;
+  margin: $section-p 0;
+}
+
+.row {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.divider {
+  height: 6px;
+  border: 0;
+  background: url('/images/hr-12.png') repeat-x 0 0;
+}
+
+.text-center {
+  text-align: center;
 }

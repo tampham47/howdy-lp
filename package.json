@@ -19,8 +19,12 @@
   "scripts": {
     "start": "gulp",
     "gulp": "gulp",
-    "build": "gulp build",
     "gh-pages": "gulp gh-pages",
+
+    "build": "gulp clean && gulp build",
+    "deploy": "yarn build && surge --project ./public --domain https://howdy-dev.surge.sh",
+    "deploy-prod": "yarn build && surge --project ./public --domain https://howdy.chat",
+
     "dev:test": "mocha ./gulpfile.js/**/*.test.js"
   },
   "dependencies": {

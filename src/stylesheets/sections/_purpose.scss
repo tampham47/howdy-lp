@@ -1,0 +1,16 @@
+.purpose {
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__content {}
+
+  &__target {
+    max-width: 128px;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
